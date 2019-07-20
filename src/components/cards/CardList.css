@@ -1,0 +1,46 @@
+.card-container {
+	display: flex;
+	flex-direction: column;
+	background: url('https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/338340/18e19ccc692200a0fd01313bde0f49646d818dce.jpg')
+		blanchedalmond;
+	border: 2px solid purple;
+	border-radius: 5px;
+	padding: 25px;
+	cursor: pointer;
+	-moz-osx-font-smoothing: grayscale;
+	backface-visibility: hidden;
+	transform: translatez(0);
+	transition: transform 0.25s ease-in-out;
+}
+
+.card-container:hover {
+	transform: scale(1.05);
+}
+
+.card-list {
+	width: 85vw;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+
+.monster-img {
+	border-radius: 50%;
+	border: 3px solid purple;
+}
+
+.monster-name {
+	font-family: 'Creepster', cursive;
+	color: #fff;
+}
+
+.user-name {
+	font-family: 'Indie Flower', cursive;
+	font-size: 1.5rem;
+	color: #fff;
+}
+
+.email {
+	color: #fff;
+}
